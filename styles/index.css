@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    
+}
+
+.container div {
+    background: #f8f8f8;
+    border: 4px solid rgb(234, 184, 146);
+    height: 100px;
+    flex: 1; 
+    height: auto;
+    background-image: url("https://www.transparenttextures.com/patterns/notebook-dark.png");
+}
+
+h3 {
+    padding: 8px;
+}
+
+/* * {
+    outline: 2px solid red;
+} */
