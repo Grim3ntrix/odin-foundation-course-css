@@ -1,0 +1,95 @@
+.container {
+    background-color: #c7f0c7;
+    padding: 12px;
+    height: auto;
+    border: 4px solid green;
+    box-sizing: border-box;
+}
+
+.flex-container-one {
+    padding: 12px;
+    border: 4px solid blue;
+    background-color: #acd9e7;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.flex-container-one div {
+    background-color: #fcdab8;
+    border: 4px solid salmon;
+    height: 68px;
+    flex: 1;
+    margin: 4px;
+}
+
+img {
+    margin-top: 15px;
+    width: 500px;
+    height: auto;
+}
+
+.item-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4px; /* Shorthand for top/bottom 0px and left/right 4px */
+}
+
+.item-two div{
+    border: 4px solid red;
+    background-color: #fbc1c8;
+    height: 48px;
+    flex: 1;
+    margin: 0 auto;
+}
+
+.flex-container-two {
+    display: flex;
+    flex-direction: row; /* Arrange large and small boxes side by side */
+    gap: 8px;
+}
+
+.large-box {
+    flex: 1; /* Equal width for both large and small boxes */
+}
+
+.large-box div {
+    border: 4px solid brown;
+    background-color: #fbc1c8;
+    padding: 96px; /* Adjust this padding as needed */
+}
+
+.small-box {
+    display: flex;
+    flex: 1;
+    flex-direction: column; /* Stack inner boxes vertically */
+    gap: 8px;
+}
+
+.small-box div {
+    flex: 1; /* Equal height for each inner box */
+    border: 4px solid brown;
+    background-color: #fbc1c8;
+}
+
+.flex-container-three {
+    padding: 8px;
+    border: 4px solid blue;
+    background-color: #acd9e7;
+    display: flex;
+    margin-top: 15px;
+    gap: 4px;
+    height: 68px;
+}
+
+.flex-container-three .img-item-one, .img-item-four {
+    flex: 2;
+    border: 4px solid blue;
+    background-color: #e2deff;
+}
+
+.flex-container-three .img-item-two, .img-item-three {
+    flex: 1; /* Equal height for each inner box */
+    border: 4px solid salmon;
+    background-color: #fcdab8;
+}
