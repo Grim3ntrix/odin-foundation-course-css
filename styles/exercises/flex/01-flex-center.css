@@ -1,0 +1,54 @@
+.container {
+    border: 4px solid #02025b;
+    background-color: #3490ff;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .item {
+    border: 4px solid brown;
+    background-color: #db7092;
+    height: 75px;
+    width: 75px;
+}
+
+.item {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* I've got a little mistake "The solution in below" */
+
+/* .container {
+    background: dodgerblue;
+    border: 4px solid midnightblue;
+    width: 400px;
+    height: 300px;
+  }
+  
+  .box {
+    background: palevioletred;
+    font-weight: bold;
+    text-align: center;
+    border: 6px solid maroon;
+    width: 80px;
+    height: 80px;
+  } */
+  
+  /* SOLUTION */
+  
+  /* disclaimer: duplicating the `.container` selector here isn't best practice.
+  In your solution you probably put it right inside the existing `.container`,
+  which _is_ the best practice. 
+  
+  We separated it out here to make it extra clear what has changed. */
+  
+  /* .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
